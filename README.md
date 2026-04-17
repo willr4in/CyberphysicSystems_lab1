@@ -92,9 +92,6 @@ jupyter lab
 - По умолчанию: `BASELINE_EPOCHS = 5`, `IMPROVED_EPOCHS = 8`. Если железо позволяет — можно увеличить для лучших результатов
 
 > **Google Colab:** ноутбук запускался в Colab (PyTorch 2.10.0+cu128, GPU T4/A100).
-> При просмотре `.ipynb` вне Colab прогресс-бары `tqdm` могут отображаться как
-> `Could not render content for 'application/vnd.jupyter.widget-view+json'` — это норм,
-> на результаты не влияет.
 
 ---
 
@@ -179,4 +176,4 @@ CyberphysicSystems_lab1/
 | `opendatasets` не скачивает | Настройте `kaggle.json` или скачайте датасет вручную |
 | `mit_b0` не найден | Обновите: `pip install -U segmentation-models-pytorch timm` |
 | Медленное обучение на CPU | Уменьшите `BASELINE_EPOCHS` и `IMPROVED_EPOCHS` в ячейке конфигурации |
-| `Could not render content for widget-view` | Норм — виджеты `tqdm` из Colab не рендерятся в GitHub/VS Code |
+
