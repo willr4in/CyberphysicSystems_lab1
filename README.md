@@ -157,14 +157,14 @@ CyberphysicSystems_lab1/
 
 | Модель | mIoU | Dice | Pixel Acc |
 |--------|------|------|-----------|
-| UNet+ResNet34 (baseline) | 0.3305 | 0.4227 | 0.8056 |
-| UNet+MiT-B0 (baseline) | 0.3377 | 0.4126 | 0.8136 |
-| DeepLabV3++ResNet50 (improved) | **0.4330** | **0.5260** | **0.8327** |
-| UNet+MiT-B2 (improved) | 0.3718 | 0.4572 | 0.8168 |
-| Custom UNet (baseline) | 0.2436 | 0.3170 | 0.7400 |
-| Custom SegNet (baseline) | 0.1932 | 0.2513 | 0.6728 |
-| Custom UNet (improved) | 0.2321 | 0.2874 | 0.7565 |
-| Custom SegNet (improved) | 0.1780 | 0.2184 | 0.7158 |
+| UNet+ResNet34 (baseline) | 0.3312 | 0.4247 | 0.8006 |
+| UNet+MiT-B0 (baseline) | 0.3238 | 0.3966 | 0.8085 |
+| DeepLabV3++ResNet50 (improved) | **0.4317** | **0.5241** | **0.8287** |
+| UNet+MiT-B2 (improved) | 0.3929 | 0.4781 | 0.8178 |
+| Custom UNet (baseline) | 0.2416 | 0.3151 | 0.7389 |
+| Custom SegNet (baseline) | 0.1976 | 0.2541 | 0.6881 |
+| Custom UNet (improved) | 0.2358 | 0.2969 | 0.7484 |
+| Custom SegNet (improved) | 0.1804 | 0.2215 | 0.7140 |
 
 ---
 
